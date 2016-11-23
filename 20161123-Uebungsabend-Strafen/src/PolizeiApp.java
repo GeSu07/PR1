@@ -7,10 +7,10 @@ public class PolizeiApp {
 		strafeMax.strafe(30);
 		strafeMax.verbandspaket();
 		
-		System.out.println("Strafe von Max ist: " + strafeMax.getStrafe());
+		System.out.println("Strafe von " + strafeMax.getVorname() + " ist: " + strafeMax.getStrafe());
 		
 		strafeMax.alkohol(1.12);
-		System.out.println("Strafe von Max ist: " + strafeMax.getStrafe());
+		System.out.println("Strafe von " + strafeMax.getVorname() + " ist: " + strafeMax.getStrafe());
 
 	}
 
