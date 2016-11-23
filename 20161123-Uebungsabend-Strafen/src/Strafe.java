@@ -8,7 +8,7 @@ public class Strafe {
 	private byte anzahl;
 	
 	public Strafe(String vorname, String nachname, String kennzeichen, int strafnummer) {
-		super();
+	
 		this.vorname = vorname;
 		this.nachname = nachname;
 		this.kennzeichen = kennzeichen;
@@ -72,6 +72,9 @@ public class Strafe {
 	
 	public void alkohol(double wert)
 	{
+		if (wert < 0.5)
+			return ;
+		
 		anzahl+=2;
 		
 		if (wert >= 0.5 && wert < 1)
