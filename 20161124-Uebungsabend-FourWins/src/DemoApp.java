@@ -15,6 +15,7 @@ public class DemoApp {
 		spielRow.playerB(2, 1);
 		System.out.println("Hat jemand gewonnen: " + spielRow.winner());
 		spielRow.playerA(3, 0);
+		spielRow.playerB(2, 4);
 		System.out.println("Hat jemand gewonnen: " + spielRow.winner());
 
 		FourWins spielColumn = new FourWins(7,5);
