@@ -1,3 +1,4 @@
+package bruch;
 
 public class BruchEinfach {
 	private int z;

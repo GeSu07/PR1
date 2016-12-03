@@ -1,3 +1,4 @@
+import bruch.Bruch;
 
 public class CharArrayDemo2 {
 
@@ -19,7 +20,9 @@ public class CharArrayDemo2 {
 		System.out.println(a1.length());
 		System.out.println("Anzahl CharArray: " + CharArray.countObjects);
 		
+		Bruch b1 = new Bruch(3, 4);
 		
 	}
 
+	
 }
