@@ -4,6 +4,7 @@ public class StringDemo {
 
 	public static void main(String[] args) {
 
+		
 		System.out.println(
 				wordsStartingCapitalLetter(
 						"Wörter starten mit Großbuchstaben"));
@@ -19,8 +20,7 @@ public class StringDemo {
 			if (i == 0 || s.charAt(i - 1) == ' ')
 				c = Character.toUpperCase(c);
 			
-			result += c;
-			
+			result += c;	
 		}
 		
 		return result;

@@ -1,14 +1,14 @@
 package org.campus02.generics;
 
-public class MayBe<T> {
+public class MayBe<KK> {
 	private int status;
 	// 1: Daten können eingesehen werden
     // 2: Zugriff verweigert, 3: Daten nicht vorhanden
 
 	
-	private T data;
+	private KK data;
 	
-	public MayBe(T data, int status)
+	public MayBe(KK data, int status)
 	{
 		this.status = status;
 		this.data = data;
@@ -24,12 +24,8 @@ public class MayBe<T> {
 		else 
 			System.out.println("Ungültiger Status");
 	}
-
-	public T getData() {
-		return data;
-	}
-
-	public void setData(T data) {
+	
+	public void setData(KK data) {
 		this.data = data;
 	}
 	
