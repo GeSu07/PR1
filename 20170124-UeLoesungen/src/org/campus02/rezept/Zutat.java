@@ -1,0 +1,19 @@
+package org.campus02.rezept;
+
+public class Zutat {
+	private String name;
+	 int menge;
+	
+	public Zutat(String name, int menge) {
+		this.name = name;
+		this.menge = menge;
+	}
+	public String getName() {
+		return name;
+	}
+	public int getMenge() {
+		return menge;
+	}
+	
+	
+}
