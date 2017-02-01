@@ -13,7 +13,16 @@ public abstract class Animal
 		this.countEyes = countEyes;
 	}
 	
+	
+	
+	public String getColor() {
+		return color;
+	}
+
+
+
 	public abstract void walk();
+	
 	
 	
 	public abstract void makeNoise();
